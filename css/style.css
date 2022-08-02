@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid;
+   
+}
+
+.brand{
+    float: left;
+    padding: 10px;
+}
+
+.header{
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+    background: linear-gradient(to right,#390E0C, #61290f);
+}
+h1{
+    color:#AA9C73;
+    margin-top: 10px;
+    font-size: 45px;
+}
+.p{
+    color: #ffffff;
+}
+
+.title{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+.links ul li{
+    float: left;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AA9C73;
+    font-size: 15px;
+    transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+}
+
+.links ul li a:hover{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.create{
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 6px;
+    background-color: #C02D28;
+}
+
+.left{
+    float: left;
+    border: 3px ridge;
+    width: 450px;
+    height: 20em;
+    border-radius: 48px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-color: #390E0C;
+
+}
+.right{
+    border: 3px ridge;
+    float: right;
+    border-color: #390E0C;
+    width: 450px;
+    height: 20em;
+    border-radius: 48px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+.sidebar{
+    margin-top: 30px;
+
+}
+
+.conseq{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: underline wavy;
+    transition: font-size 1s ease;
+}
+.conseq:hover{
+    font-size: 17px;
+    color: firebrick;
+    font-weight: bold;
+}
+footer{
+    padding: 10px;
+    font-size: 20px;
+    height: 6em;
+    font-weight: bold;
+    margin-top: 50px;
+    background: linear-gradient(to bottom,#390E0C, #86350f);
+    text-align: center;
+    border-radius: 32px;
+    color: #AA9C73;
+}
+.name, .copy{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px ;
+    /* margin-bottom: 30px; */
+}
